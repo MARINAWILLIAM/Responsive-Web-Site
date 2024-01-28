@@ -1,0 +1,849 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.navbar-toggler-icon{
+color: white;
+
+
+
+}
+.pstyle{
+font-size: 17px;
+
+
+}
+.linka{
+    position: relative;
+
+    
+}
+.linkatwo{
+    position: relative;
+}
+.linkatwo::after{
+
+    content:"" ;
+    background-color: #fefcfd;
+    position: absolute;
+    height: 0.1rem;
+    width: 0rem ;
+        left: 15px;
+        top: 87%;
+        transition: 0.3s;
+
+
+
+
+
+}
+.linkatwo:hover:after{
+
+    content:"" ;
+    background-color: #fefcfd;
+    position: absolute;
+    height: 0.1rem;
+    width: 3rem ;
+        left: 15px;
+        top: 87%;
+    
+
+
+
+
+
+}
+.linka::after{
+
+content:"" ;
+background-color: #fefcfd;
+position: absolute;
+height: 0.1rem;
+width: 3rem ;
+    left: 22px;
+    top: 87%;
+    transition: 0.3s;
+}
+.nav-link:hover{
+
+color: white;
+}
+
+
+
+header p::after{
+
+    content: "|";
+
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+}
+@keyframes typing{
+    
+   
+
+        5%{ content: "D|";}
+        7%{ content: "Deve|";}
+        9%{ content: "Develo|";}
+        11%{ content: "Develope|";}
+        13%{ content: "Developer|";}
+        15%{ content: "Developer|";}
+        17%{ content: "Developer|";}
+        19%{ content: "Developer|";}
+        21%{ content: "Developer|";}
+        23%{ content: "Developer|";}
+        26%{ content: "Developer|";}
+        29%{ content: "Developer|";}
+        32%{ content: "Developer|";}
+        38%{ content: "Developer|";}
+        40%{ content: "Developer|";}
+
+        42%{ content: "Develo|";}
+        44%{ content: "Deve|";}
+        46%{ content: "|";}
+        48%{ content: "Des";}
+        50%{ content: "Design|";}
+        52%{ content: "Designer|";}
+        61%{ content: "Designer|";}
+        63%{ content: "Designer|";}
+        65%{ content: "Designer|";}
+        68%{ content: "Designer|";}
+        69%{ content: "Designer|";}
+        70%{ content: "Designer|";}
+        73%{ content: "Designer|";}
+        75%{ content: "Designer|";}
+        77%{ content: "Design|";}
+        79%{ content: "Desi|";}
+        81%{ content: "De|";}
+        82%{ content: "|";}
+        83%{ content: "La|";}
+        84%{ content: " Larr|";}
+        86%{ content: "Larry |";}
+        87%{ content: "Larry Dan|";}
+        89%{ content: " Larry Danie|";}
+        90%{ content: " Larry Daniels|";}
+        91%{ content: " Larry Daniels|";}
+        92%{ content: " Larry Daniels|";}
+        93%{ content: " Larry Daniels|";}
+        94%{ content: " Larry Danie|";}
+        95%{ content: " Larry Dani|";}
+        96%{ content: " Larry D|";}
+        97%{ content: " Lar|";}
+        98%{ content: " L|";}
+        100%{ content: " |";}
+
+
+
+
+
+
+
+
+
+
+
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h1header
+{
+font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+
+}
+.pheader{
+    font-weight: 400;
+    font-size: 50px;
+}
+.nav-link{
+font-size: 15px;
+font-weight: 400;
+color: white;
+
+}
+
+
+
+header{
+
+    background:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(bg.jpg);
+
+background-position: center center;
+background-size: cover;
+
+background-attachment:fixed;
+
+
+
+
+}
+.icofinalsa
+{
+
+    width: 2rem;
+    height: 2rem;
+    
+    background-color:rgba(0, 0, 0, 0.3);
+}
+.icofinalsa i{
+font-size: 15px;
+color: white;
+}
+.honepage
+{
+font-size: 40px;
+}
+.icofinal i{
+font-size: 10px;
+
+
+
+}
+
+.sorahero
+{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    
+}
+
+
+.progress-bar {
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+}
+.progress{
+
+
+    height: 1.5rem;
+}
+.btn-secondary
+{
+padding: 10px 30px;
+}
+.icofirst
+{
+
+    width: 3rem;
+    height: 3rem;
+    
+background-color: rgb(156, 152, 152);
+}
+.sectionc   {
+    
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    width: 400px;
+}
+.nav-pills .nav-link.active, .nav-pills .show.nav-link {
+    color:black;
+    background-color:transparent;
+    position: relative;
+}
+.nav-pills .nav-link{
+
+background: white;
+color: black;
+font-weight: 800;
+
+}
+.sec
+{
+
+border-radius: 9px;
+    background-color: black;
+    border: none;
+    color: #eee;
+}
+.sec:hover
+{
+
+border-radius: 9px;
+    background-color:transparent;
+    border: none;
+    color: black;
+    font-weight: 300;
+    border: solid 2px black;
+}
+.first
+{
+
+
+    border-radius: 9px;
+    color:black;
+    background-color: transparent;
+    border: none;
+    border: solid black 2px;
+    font-weight: 300;
+}
+
+
+
+.first:hover
+{
+
+
+    border-radius: 9px;
+    color:white;
+    background-color: black;
+    border: none;
+    border: solid black 2px;
+    
+}
+
+
+
+
+
+.firstline::after
+{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 15px;
+    top: 80%;
+    transition: 0.5s;
+}
+   .firstline:hover:after
+{
+    
+    width: 30px;
+    
+}
+.firstline{
+    position: relative;
+}
+
+
+.secondline::after
+{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 15px;
+    top: 80%;
+    transition: 0.5s;
+}
+   .secondline:hover:after
+{
+    
+    width: 60px;
+    
+}
+.thirdline{
+    position: relative;
+}
+.thirdline::after
+{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 15px;
+    top: 80%;
+    transition: 0.5s;
+}
+   .thirdline:hover:after
+{
+    
+    width: 60px;
+    
+}
+
+.secondline{
+    position: relative;
+}
+.fourthtline{
+    position: relative;
+}
+.fourthtline::after
+{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 15px;
+    top: 80%;
+    transition: 0.5s;
+}
+   .fourthtline:hover:after
+{
+    
+    width: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.swar{
+    width: 95%;
+    
+}
+.dashedthree:after {
+    content: '';
+    width: 13rem;
+    height: 1.6rem;
+    background-image: url(dots.png);
+    
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+transform: translateX(-50%);
+top: 40%;
+    z-index: -1;
+
+    
+}
+.dashedthree{
+    position: relative;
+    z-index: 4;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.dashedtwo:after {
+    content: '';
+    width: 12rem;
+    height: 1.5rem;
+    background-image: url(dots.png);
+    
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+transform: translateX(-50%);
+top: 50%;
+    z-index: -1;
+
+    
+}
+.dashedtwo{
+    position: relative;
+    z-index: 4;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.dashed:after {
+    content: '';
+    width: 17rem;
+    height: 1.6rem;
+    background-image: url(dots.png);
+    
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+transform: translateX(-50%);
+top: 57%;
+    z-index: -1;
+
+    
+}
+.dashed{
+    position: relative;
+    z-index: 4;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.soraclient{
+    width: 10rem;
+    
+}
+.carousel-indicators [data-bs-target]{
+
+
+width: 9px;
+height: 9px;
+border-radius: 50%;
+background-color: gray;
+
+}
+.alan{
+
+
+
+    color: black;
+    text-decoration: none;
+}
+.dashedone:after {
+    content: '';
+    width: 13rem;
+    height: 1.9rem;
+    background-image: url(dots.png);
+    
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+transform: translateX(-50%);
+top: 35%;
+    z-index: -1;
+
+    
+}
+.dashedone{
+    position: relative;
+    z-index: 4;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.dashedfin{
+    position: relative;
+    z-index: 4;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.dashedfin:after {
+    content: '';
+    width: 18rem;
+    height: rem;
+    background-image: url(dots.png);
+    
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+transform: translateX(-50%);
+top: 55%;
+    z-index: -1;
+
+    
+}
+
+.icontwos
+{
+    width:60px ;
+    height: 60px;
+    background-color: #eee;
+}
+.icontwos:hover .fa-solid, .fas 
+{
+    color: #eee;
+}
+.icontwos:hover
+{
+    background-color: black;
+    color: #eee;
+}
+.final{
+    background-color: #1c1c1c;
+}
+.pfinal{
+font-size: 13px;
+}
+.iconsaftersora{
+border: solid rgba(231, 227, 227, 0.5) 8px;
+background-color: rgba(255, 255, 255, 0.95) ;
+opacity: 0;
+width: 95%;
+height: 100% ;
+transition: 0.5;
+ transform: translateY(10px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hsixelra5ma{
+
+position: relative;
+
+transition: 0.5s;
+transform:translateY(-15px);
+opacity: 0;
+
+
+}
+ .iconsaftersora:hover .hsixelra5ma{
+
+    position: relative;
+    
+    transition: 0.5s;
+    transform:translateY(0px);
+    opacity: 1;
+    
+    
+    }
+
+
+    .fileicon
+    {
+        position: relative;
+
+        transition: 0.5s;
+        transform:translateY(15px);
+        opacity: 0;
+        
+
+
+
+
+
+    }
+    .iconsaftersora:hover .fileicon{
+
+        position: relative;
+        
+        transition: 0.5s;
+        transform:translateY(0px);
+        opacity: 1;
+        
+        
+        }
+
+.iconsaftersora:hover{
+    border: solid rgba(231, 227, 227, 0.5) 8px;
+    background-color: rgba(255, 255, 255, 0.95) ;
+    width: 95%;
+    height: 100% ;
+    opacity: 1;
+    transform: translateY(0px);
+    
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnfin:hover{
+border: 1px solid black;
+background-color: transparent;
+font-weight: 400;
+color: black;
+}
+.btnfin{
+background-color: black ;
+color: #eee;
+font-weight: 600;
+border: 1px solid transparent;
+transition: 0.2s;
+
+}
+.sorascale:hover{
+
+    transform: scale( 1.2 , 1.2);
+}
+.sorascale{
+
+    transition: 0.5s;
+}
+.alan{
+position: relative;
+   font-size: 1rem;
+}
+.alan::after{
+    content: '';
+    width: 5rem;
+    height: 0.2rem;
+background-color: black;
+left: 7px;
+position: absolute;
+top: 100%;
+}
+.carcal
+{
+    font-size: 12px;
+    color: #748182;
+    font-weight: 700;
+}
+.mona1{
+
+width: 30px;
+height: 30px;
+background-color: black;
+border-radius: 50%;
+border: solid 1px black;
+margin: 10px 0px;
+}
+.mona2{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px 0px;
+    border: solid 1px black;
+    }
+    .mona1 i{
+
+        color: white;
+        font-size: 10px;
+        
+        }
+        .mona2 i{
+
+            color: white;
+            font-size: 10px;
+            }
+            .mona1:hover{
+
+                width: 30px;
+                height: 30px;
+                background-color: transparent;
+                border-radius: 50%;
+                border: solid 1px black;
+                margin: 10px 0px;
+                }
+                .mona2:hover{
+                
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: transparent;
+                    margin: 10px 0px;
+                    border: solid 1px black;
+                    }
+                   .mona1:hover .icoa{
+                
+                        color:black;
+                        font-size: 10px;
+                        
+                        }
+                        .mona2:hover .icoa{
+                
+                            color: black;
+                            font-size: 10px;
+                            }
+                            .services .item {
+                                padding: 50px 20px;
+                                background: #fff;
+                                
+                             box-shadow: 0px 12px 30px -8px rgba(0, 0, 0, 0.1);
+                                margin-bottom: 30px;
+                                border-radius: 6px;
+                              }
+                              .services .item:hover .icon {
+                                background: #1c1c1c !important;
+                                color: #eee !important;
+                              }
+                              .services .item .icon {
+                                font-size: 20px !important;
+                        
+                                padding: 20px ;
+                                width: 60px !important;
+                                height: 60px !important;
+                                line-height: 70px !important;
+                                background: #f4f4f4 !important;
+                                border-radius: 50% !important;
+                                
+                                transition: all .5s !important;
+                              }
+                              .services .item h6 {
+                                padding: 10px;
+                                margin-bottom: 15px;
+                                font-weight: 800;
+                                font-size: 18px;
+                              }
+                              .services .item p {
+                                word-spacing: 2px;
+                                font-size: 14px;
+                              }
+                              
+                            .soraheroiten{
+                                width: 90%;
+                                left: -20px;
+                               top: 25%;
+                              height: 80%;
+                            background-image: url(dots.png);
+                            
+
+                            }
